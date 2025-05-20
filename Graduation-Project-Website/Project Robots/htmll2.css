@@ -1,0 +1,46 @@
+body {
+
+ background: #000;
+      }
+    img {
+        width: 200px;
+        height: 150px;
+    }
+    .fill {
+        object-fit: fill;
+    }
+
+    .container {
+    
+    background-color: #ffffff; border-radius: 8px; box-shadow: 0 0 10px rg
+    ba(0, 0, 0, 0.1); width: 300px; margin: 100px auto; padding: 20px; text-align: center;
+    
+    }
+    
+    h2 {
+    
+    margin-bottom: 20px;
+    
+    }
+    
+    label{
+    
+    display: block; margin-bottom: 8px; }
+    
+    input[type="text"], input[type="password"] {
+    
+    width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;
+    
+    }
+    label {
+    
+    display: block;
+    
+    margin-bottom: 8px;
+    
+    }
+    
+    input[type="text"], input[type="password"],input[type="email"] { width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;
+    
+    }
+    

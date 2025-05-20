@@ -1,0 +1,87 @@
+
+   html {
+    scroll-behavior: smooth;
+    direction: rtl;
+}
+    body{
+    margin: 0;
+    color: white;
+    background-image: url(R2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    box-shadow: none;
+    
+}
+
+    .container {
+        margin-top: 20px;
+    }
+    h1 {
+        display: flex;
+    justify-content: center;
+    }
+    h3 {
+      display: flex;
+    justify-content: center;
+    }    
+    .content{
+      color: white;
+    }
+
+   
+    table {
+        width: 80%; 
+        margin: 20px auto; 
+        border-collapse: separate; 
+        border-spacing: 0; 
+        border-radius: 10px; 
+        overflow: hidden; 
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+        background-color: #0000000f; 
+    }
+    .table>thead {
+    vertical-align: bottom;
+    text-align: center;}
+    th {
+        background-color: #0000ff61;
+        color: white; 
+        padding: 15px;
+        text-align: center; /* توسيط النص داخل عناوين الأعمدة */
+        border-top: 0px solid #ddd; /* حدود علوية لعناوين الأعمدة */
+    }
+    td {
+        padding: 12px 15px;
+        text-align: center;
+        border-bottom: 0.1px solid #ddd;
+        background-color: #00000070; 
+        color: white;
+    }
+    button{
+        margin-top: 20px;
+        padding: 15px 25px; 
+        background-color: #0000ff61; 
+        color: white; 
+        border: none;
+        border-radius: 5px; 
+        cursor: pointer; 
+        transition: background-color 0.3s, color 0.3s;
+    }
+    button:hover {
+        background-color: blue;
+    }
+    a{
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-color: #0000ff61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+a:hover{
+    background-color: blue;
+}

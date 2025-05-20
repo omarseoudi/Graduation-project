@@ -1,0 +1,94 @@
+    /* توسيط المحتوى */
+    html {
+        scroll-behavior: smooth;
+        direction: rtl;
+    }
+        body{
+        margin: 0;
+        color: white;
+        background-image: url(R2.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+        box-shadow: none;
+        transition: background 0.4s ease;
+    }
+        /* توسيط العناصر ضمن الحاوية */
+        .container {
+            margin-top: 20px; /* تباعد أعلى للحاوية */
+        }
+        h1 {
+            display: flex;
+        justify-content: center;
+        color: white;
+        }
+    h3 {
+        display: flex;
+    justify-content: center;
+    color: white;
+    }
+    .table>thead {
+        vertical-align: bottom;
+        text-align: center;
+    }
+        /* تصميم الجدول */
+        table {
+            width: 80%; /* تحديد عرض الجدول */
+            margin: 20px auto; /* توسيط الجدول في الصفحة */
+            border-collapse: separate; /* فصل الحدود */
+            border-spacing: 0; /* تحديد مسافة الفاصل بين الحدود */
+            border-radius: 10px; /* تحديد زوايا مدورة للجدول */
+            overflow: hidden; /* عدم السماح بتجاوز الحدود */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* ظل للجدول */
+            background-color: #0000000f; /* لون خلفية الجدول */
+        }
+    
+        /* تصميم عناوين الأعمدة */
+        th {
+            background-color: #0000ff61; /* لون خلفية عناوين الأعمدة */
+            color: white; /* لون النص في عناوين الأعمدة */
+            padding: 15px; /* تباعد داخلي لعناوين الأعمدة */
+            text-align: center; /* توسيط النص داخل عناوين الأعمدة */
+            border-top: 0px solid #ddd; /* حدود علوية لعناوين الأعمدة */
+        }
+    
+        /* تصميم خلايا الجدول */
+        td {
+            padding: 12px 15px; /* تباعد داخلي لخلايا الجدول */
+            text-align: center; /* توسيط النص داخل خلايا الجدول */
+            border-bottom: 0.1px solid #ddd;
+            background-color: #00000070;
+            color: white;
+        }
+    
+        /* تصميم الزر */
+        button{
+            margin-top: 20px;
+            padding: 15px 25px; 
+            background-color: #0000ff61; 
+            color: white; 
+            border: none; /* إزالة حدود الزر */
+            border-radius: 5px; 
+            cursor: pointer; 
+            transition: background-color 0.3s, color 0.3s; /* تغيير التدريجي في لون الخلفية والنص */
+        }
+    
+       
+        button:hover {
+            background-color: blue;
+        }
+    a{
+        margin-top: 20px;
+        padding: 15px 25px;
+        background-color: #0000ff61;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        text-decoration: none;
+    }
+    a:hover{
+        background-color: blue;
+    }
